@@ -12,22 +12,13 @@ Welcome to Money Flow! This Android application allows users to manage and perfo
 
 <div style="display: inline-block;">
   <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/4789ad48-7d6d-4438-95e4-8e236d8d9216" width="200" alt="Welcome Page" />
-  <figcaption>Welcome Page</figcaption>
-</div>
-
-<div style="display: inline-block;">
   <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/0a3dd61f-91ac-467e-8941-049efc7b4bf9" width="200" alt="Home Page" />
-  <figcaption>Home Page</figcaption>
 </div>
 
 <div style="display: inline-block;">
   <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/cac0d9bf-a91e-4fcc-8097-6a4fd0755ec9" width="200" alt="View All Users" />
+    <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/ac317e7e-2ee4-44b8-98e1-5869936db5be" width="200" alt="Transfer" />
   <figcaption>View All Users</figcaption>
-</div>
-
-<div style="display: inline-block;">
-  <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/ac317e7e-2ee4-44b8-98e1-5869936db5be" width="200" alt="Transfer" />
-  <figcaption>Transfer</figcaption>
 </div>
 
 <div style="display: inline-block;">
