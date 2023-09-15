@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#C2C7DF</color>
+    <color name="moneyGreen">#118C4F</color>
+    <color name="lightPurple">#94A5D9</color>
+    <color name="darkPurple">#2c2958</color>
+    <color name="yellow">#8BC34A</color>
+    <color name="navy">#03045E</color>
+    <color name="strongBlue">#0077B5</color>
+    <color name="cyan">#00B3D7</color>
+    <color name="fountainBlue">#8FDFEE</color>
+    <color name="lightBlue">#C9EFF7</color>
+    <color name="red">#FF0000</color>
+    <color name="new_blue">#71C9E7</color>
+    <color name="dark_blue">#46469D</color>
+    <color name="yellow_coin">#FDBC00</color>
+
+
+</resources>

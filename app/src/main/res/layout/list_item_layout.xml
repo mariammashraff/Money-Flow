@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:background="@color/new_blue"
+    android:padding="8dp"
+>
+
+    <ImageView
+        android:id="@+id/imageCustomer"
+        android:layout_width="148dp"
+        android:layout_height="185dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:fontFamily="@font/poppins"
+        android:id="@+id/textName"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance:  "
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:id="@+id/textBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:  "
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:id="@+id/textEmail"
+            android:text="oliver@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 4 digits of the account number:  "
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
+            android:id="@+id/textId"
+            android:text="1910"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/navy"
+            android:drawableRight="@drawable/money_transfer_icon"
+            android:fontFamily="@font/poppins"
+            android:text="Transfer "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

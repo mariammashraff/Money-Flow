@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@color/new_blue"
+    tools:context=".HomePage">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_height="350dp"
+        android:layout_width="350dp"
+        android:orientation="vertical"
+        android:backgroundTint="@color/strongBlue"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        >
+
+        <TextView
+            android:id="@+id/userNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="      16"
+            android:textStyle="bold"
+
+        />
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:text="         User"
+            android:textFontWeight="@integer/material_motion_duration_short_1"
+            />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="240dp"
+            android:src="@drawable/user_bank" />
+        <Button
+            android:fontFamily="@font/poppins"
+            android:id="@+id/userButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="users"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/navy"
+            android:drawableRight="@drawable/common_full_open_on_phone"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+
+    <Space
+    android:layout_width="match_parent"
+    android:layout_height="15dp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:backgroundTint="@color/strongBlue"
+        android:layout_gravity="center"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner"
+        >
+
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:id="@+id/transactionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightBlue"
+            android:textSize="20dp"
+            android:text="      37"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:fontFamily="@font/poppins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightBlue"
+            android:textSize="16dp"
+            android:text="         Transaction"
+            android:textFontWeight="@integer/material_motion_duration_short_1"
+            />
+
+        <ImageView
+            android:fontFamily="@font/poppins"
+
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:src="@drawable/transfer_money_bg" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/transactionButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Transaction History"
+            android:textColor="@color/white"
+            android:background="@color/navy"
+            android:drawableRight="@drawable/common_full_open_on_phone"
+
+            />
+
+</LinearLayout>
+
+</LinearLayout>

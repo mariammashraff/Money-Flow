@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/cyan"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/green_arrow_in" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/paidInName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" Sarah"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/paidInId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1920"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="+$"
+                android:textColor="@color/moneyGreen"
+                android:textSize="21sp"/>
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/amountIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="100"
+                android:textColor="@color/moneyGreen"
+                android:textSize="21sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/dateIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9 sept 2023"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/red_arrow_out" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/paidOutName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mariam"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/paidOutId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1910"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="-$"
+                android:textColor="@color/red"
+                android:textSize="21sp" />
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/amountOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="100"
+                android:textColor="@color/red"
+                android:textSize="21sp" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:fontFamily="@font/poppins"
+                android:id="@+id/dateOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="9 sept 2023"
+                android:textColor="@color/lightBlue"
+                android:textSize="21sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+
+
+</LinearLayout>
