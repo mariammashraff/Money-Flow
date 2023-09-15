@@ -8,6 +8,7 @@ Welcome to Money Flow! This Android application allows users to manage and perfo
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 
+  
 ## Screenshots
 
 <div style="display: inline-block;">
@@ -17,14 +18,13 @@ Welcome to Money Flow! This Android application allows users to manage and perfo
 
 <div style="display: inline-block;">
   <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/cac0d9bf-a91e-4fcc-8097-6a4fd0755ec9" width="200" alt="View All Users" />
-    <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/ac317e7e-2ee4-44b8-98e1-5869936db5be" width="200" alt="Transfer" />
-  <figcaption>View All Users</figcaption>
+  <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/ac317e7e-2ee4-44b8-98e1-5869936db5be" width="200" alt="Transfer" />
 </div>
 
 <div style="display: inline-block;">
   <img src="https://github.com/mariammashraff/basic-banking-system/assets/58777989/a12ee015-0b93-4f12-a779-eba602a74b09" width="200" alt="Transaction History" />
-  <figcaption>Transaction History</figcaption>
 </div>
+
 
 
 
