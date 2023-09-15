@@ -9,11 +9,11 @@ Welcome to Money Flow! This Android application allows users to manage and perfo
 - [Usage](#usage)
 
 ## Screenshots
-![Welcome Page]! [welocome page](https://github.com/mariammashraff/basic-banking-system/assets/58777989/c9483d31-ca42-4c51-94b1-b32048b69015)
-![Home Page]! [home page](https://github.com/mariammashraff/basic-banking-system/assets/58777989/1367ecad-588e-42a6-83a1-a263760b8b25)
-![View All Customers Page]! [view all users](https://github.com/mariammashraff/basic-banking-system/assets/58777989/470c6265-c6d7-4ebb-ad80-3f4736985bfb)
-![Transfer Page]! [transfer](https://github.com/mariammashraff/basic-banking-system/assets/58777989/c6d2a5ca-439d-4589-83d5-0fefa416ed18)
-![Transaction History Page]! [transaction history](https://github.com/mariammashraff/basic-banking-system/assets/58777989/dbd4d547-37be-474a-b613-6bf94758ee83)
+![welocome page](https://github.com/mariammashraff/basic-banking-system/assets/58777989/4789ad48-7d6d-4438-95e4-8e236d8d9216)
+![home page](https://github.com/mariammashraff/basic-banking-system/assets/58777989/0a3dd61f-91ac-467e-8941-049efc7b4bf9)
+![view all users](https://github.com/mariammashraff/basic-banking-system/assets/58777989/cac0d9bf-a91e-4fcc-8097-6a4fd0755ec9)
+![transfer](https://github.com/mariammashraff/basic-banking-system/assets/58777989/ac317e7e-2ee4-44b8-98e1-5869936db5be)
+![transaction history](https://github.com/mariammashraff/basic-banking-system/assets/58777989/a12ee015-0b93-4f12-a779-eba602a74b09)
 
 
 ## Features
